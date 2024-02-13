@@ -1,5 +1,7 @@
 # Web Application for Image Upload
 
+### Deployed link: https://blinkitdemo.netlify.app/
+
 This project is a simple web application that allows users to sign up, log in, and upload images securely. It implements basic authentication and authorization mechanisms to ensure secure access to user data.
 
 ## Features
