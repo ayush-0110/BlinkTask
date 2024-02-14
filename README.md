@@ -1,5 +1,6 @@
 # Web Application for Image Upload
 
+_A note: I deployed backend on Render. Since I chose the free service, backend service might be slower sometimes as Render spins down a Free web service that goes 15 minutes without receiving inbound traffic. So kindly reload the page once if register/login doesn't work. Once backend starts serving requests, navigation is seamless_
 ### Deployed link: https://blinkitdemo.netlify.app/
 
 This project is a simple web application that allows users to sign up, log in, and upload images securely. It implements basic authentication and authorization mechanisms to ensure secure access to user data.
