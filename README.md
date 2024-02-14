@@ -8,7 +8,9 @@ This project is a simple web application that allows users to sign up, log in, a
 ## Features
 
 - User authentication (sign up and log in).
-- Image upload functionality with secure access alongwith AWS S3 storage
+- Fully responsive
+- Attractive UI
+- Image upload functionality with secure access alongwith AWS S3 storage.
 - Basic user profile management.
 - Securely store and retrieve images using AWS S3 (with pre-signed URLs for upload and access).
 - JWT-based session management.
