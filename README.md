@@ -44,7 +44,16 @@ git clone <repository-url>
      ```javascript
      npm install
      ```
-4. Set up your environment variables in `.env` files for both frontend and backend according to the `.env.example` provided in each directory.
+4. Set up your environment variables in `.env` files for both frontend and backend.
+     ```bash
+     MONGODB_URI= your mongodb cluster URI
+     JWT_SECRET= your own secret
+     S3_BUCKET= AWS Bucket name
+     S3_BUCKET_REGION= Region
+     AWS_ACCESS_KEY_ID= AWS access key from IAM.
+     AWS_SECRET_ACCESS_KEY=AWS secret from IAM.
+     ```
+     For frontend, just need to put the server URL in .env. Make sure to include _REACT_APP__ prefix.
 
 5. Start the backend server with npm run dev.
 6. Start the frontend application in another terminal with npm start
